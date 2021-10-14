@@ -32,8 +32,8 @@ ball.color("white")
 ball.shapesize(stretch_len=1,stretch_wid=1)
 ball.penup()
 ball.goto(0,0)
-ball.dx = 0.7
-ball.dy = 0.7
+ball.dx = 0.2
+ball.dy = 0.2
 #pen
 pen = turtle.Turtle()
 pen.speed(0)
@@ -71,8 +71,8 @@ wn.listen()
 wn.onkeypress(paddle_l_up,"w")  
 wn.onkeypress(paddle_l_down,"s")  
 
-wn.onkeypress(paddle_r_up,"8")  
-wn.onkeypress(paddle_r_down,"5")
+wn.onkeypress(paddle_r_up,"i")  
+wn.onkeypress(paddle_r_down,"k")
 
 #main
 while True:
